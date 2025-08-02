@@ -1,0 +1,326 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Raghad 💜</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f4ff;
+      color: #4a0072;
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 20px;
+      background-color: #f8f4ff;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    header > div:first-child {
+      font-size: 20px;
+    }
+
+    header a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #4a0072;
+      font-size: 16px;
+      padding: 6px 12px;
+      border-radius: 12px;
+      background-color: rgba(74, 0, 114, 0.08);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    header a:hover {
+      transform: scale(2);
+      background-color: rgba(74, 0, 114, 0.18);
+    }
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .countdown-section {
+      background-color: #e7dbf5;
+    }
+
+    .countdown {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .countdown-box {
+      background-color: white;
+      border-radius: 20px;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .countdown-box:hover {
+      transform: scale(1.05);
+    }
+
+    .image-section {
+      background-color: #dac4f7;
+      padding: 40px 20px;
+    }
+
+    .image-section img {
+      max-width: 300px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .image-section h2 {
+      font-weight: bold;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .image-section p {
+      font-size: 18px;
+      margin-top: 0;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .grid-section {
+      display: grid;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .bond-grid {
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+    }
+
+    .special-grid {
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.03);
+    }
+
+    .box h3 {
+      color: #4a0072;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .box p {
+      color: #4a0072;
+      font-size: 16px;
+    }
+
+    .box i {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #4a0072;
+    }
+
+    .footer-text {
+      margin-top: 50px;
+      font-size: 18px;
+      color: #4a0072;
+    }
+
+    .footer-text.bold {
+      font-weight: bold;
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>For Raghad</div>
+    <div>
+      <a href="#bond">Our Beautiful Bond</a>
+      <a href="#special">What Makes You Special</a>
+    </div>
+  </header>
+
+  <section class="countdown-section">
+    <h2>Countdown to Your Birthday</h2>
+    <div class="countdown" id="countdown">
+      <div class="countdown-box"><span id="days">00</span><br>Days</div>
+      <div class="countdown-box"><span id="hours">00</span><br>Hours</div>
+      <div class="countdown-box"><span id="minutes">00</span><br>Minutes</div>
+      <div class="countdown-box"><span id="seconds">00</span><br>Seconds</div>
+    </div>
+  </section>
+
+<section class="image-section">
+  <h2>Happy Birthday, Raghad!</h2>
+  <img src="raghad.jpg" alt="Raghad" style="width: 100%; max-width: 300px; height: auto;" />
+  <p>
+    More than a cousin, more than a sister, you're my safe space, my forever thing. Today we celebrate the beautiful soul who makes life brighter, softer, and infinitely more meaningful.
+  </p>
+</section>
+
+  <section id="bond">
+  <h2 style="text-align: center;">Our Beautiful Bond</h2>
+  <div class="grid-section bond-grid">
+    <div class="box">
+      <i class="fas fa-baby"></i>
+      <h3>Since Birth</h3>
+      <p>You've been my favorite cousin since the very beginning, a soul connection that felt destined. Our bond transcends time, growing deeper with every shared moment and creating a love story that began before we could even speak.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-car-side"></i>
+      <h3>Car Ride Magic</h3>
+      <p>Those beautiful car rides where short distances become endless conversations and time becomes irrelevant. In those precious moments, the world disappears and everything makes happy, perfect sense. Just us, karak, our thoughts, and the road ahead.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-heart"></i>
+      <h3>More Than Sisters</h3>
+      <p>As beautifully different as we are, we bond in the most extraordinary way, feeling like two halves of the same soul. You're my safe scary space, my sweet sorrow, the person who knows my heart without words.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-eye"></i>
+      <h3>Unspoken Understanding</h3>
+      <p>We share this magical unspoken understanding that feels almost telepathic. A glance, a pause, a subtle gesture, and we know exactly what the other is thinking. It's like our hearts speak the same silent language.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-comments"></i>
+      <h3>Family Gathering Secrets</h3>
+      <p>Our little gossipy corner chats during family gatherings are pure gold. We create our own world in the midst of chaos, sharing knowing looks, whispered observations, and those delicious conversations that make every family event an adventure.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-people-group"></i>
+      <h3>Inherited Connection</h3>
+      <p>The beautiful parallel between our moms' close friendship and our own bond creates this wonderful family dynamic. It's like love and connection run in our bloodline, creating generations of sisterhood and understanding that feels both natural and magical.</p>
+    </div>
+  </section>
+
+<section id="special" style="background-color: #e7dbf5; padding: 60px 20px;">
+  <h2 style="text-align: center;">What Makes You Special</h2>
+  <div class="grid-section special-grid">
+    <div class="box">
+      <i class="fas fa-sun"></i>
+      <h3>Your Radiant Passion</h3>
+      <p>Your passion is like sunshine that lights up everywhere you go, touching every heart in your path. Your interests are mind blowing, fascinating, and contagious in the most beautiful way.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-brain"></i>
+      <h3>Your Evolved Mindset</h3>
+      <p>Your mindset is beautifully crafted, clearly worked on with intention, and remarkably fair. You approach life with such profound wisdom, balance, and thoughtful perspective that inspires everyone around you.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-heartbeat"></i>
+      <h3>Extraordinary Emotional Intelligence</h3>
+      <p>As brilliantly logical as you are, your emotional intelligence is absolutely off the charts. You balance heart and mind so perfectly, creating this rare combination of wisdom and empathy.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-magnet"></i>
+      <h3>Effortlessly Magnetic</h3>
+      <p>You have this incredibly attractive way of being authentically yourself. Just talking, walking, existing, your mere presence is absolutely mesmerizing and beautiful to witness in every moment.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-user-check"></i>
+      <h3>Inspiring Confidence</h3>
+      <p>Your confidence is truly something I deeply respect and admire about you. It's genuine, powerful, and incredibly inspiring to witness. You carry yourself with such grace and self-assurance.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-bolt"></i>
+      <h3>Unstoppable Drive</h3>
+      <p>You possess such incredible drive in life that it's both amazing and extremely respectable. Your determination, ambition, and relentless pursuit of your dreams is absolutely awe inspiring.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-star"></i>
+      <h3>Burst of Pure Life</h3>
+      <p>You're so vibrantly young and gloriously full of life, like a burst of pure happiness and joy. Your infectious energy and zest for living makes everything around you more beautiful and alive.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-chess-queen"></i>
+      <h3>My Cherished Role Model</h3>
+      <p>I constantly think of you as my role model and guiding light. You inspire me to be better, dream bigger, and approach life with more courage and authenticity in countless beautiful ways.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-lightbulb"></i>
+      <h3>Luminous Energy</h3>
+      <p>Your bright, radiant energy and that precious loud quiet laugh that I miss so deeply. The way you effortlessly illuminate every space you enter with your presence and joy.</p>
+    </div>
+  </section>
+
+<section style="background-color: #e0d4f7; padding: 40px 20px; color: #4a0072; text-align: center;">
+  <p style="font-size: 18px; margin-bottom: 10px;">I would never trade our precious quality time together for anything in this world.</p>
+  <p style="font-size: 22px; font-weight: bold; margin-top: 0;">Forever grateful for you, Raghad</p>
+</section>
+
+  <footer style="margin-top: 40px; padding: 15px; font-size: 14px; color: #666; background-color: #f0eaff;">
+  &copy; 2025 Zahraa Loves You 💜
+</footer>
+
+  <script>
+    const countdownDate = new Date("Aug 2, 2026 00:00:00").getTime();
+
+    const countdownFunction = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (distance % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("days").innerText = days;
+      document.getElementById("hours").innerText = hours;
+      document.getElementById("minutes").innerText = minutes;
+      document.getElementById("seconds").innerText = seconds;
+
+      if (distance < 0) {
+        clearInterval(countdownFunction);
+        document.getElementById("countdown").innerHTML =
+          "<div class='countdown-box'>Happy Birthday My Love!!!!</div>";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
